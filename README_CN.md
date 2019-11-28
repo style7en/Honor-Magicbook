@@ -27,10 +27,8 @@
 - 触摸板
     - 手势完美
 - 摄像头
-- 声卡 Realtek ALC256
-    - 麦克风和耳机都很正常，扬声器声音已使用自编译的 `AppleALC` 修复，使用内置麦克风后扬声器声音会变得很小，需要接上耳机，然后拔出(或者睡眠后唤醒)才能发声，原因不明
+- 声卡 Realtek ALC256 声卡ID为57
 - 显示器
-    - 休眠后需要重新开合才能点亮显示器
   
 
 ## 不能正常工作的设备
@@ -39,6 +37,19 @@
 - 独显 MX150
     - 已使用 [SSDT-Disable_DGPU.aml](EFI/CLOVER/ACPI/patched) 进行屏蔽
     
-## 个人推荐的一些小众软件
+## 其他
    
    [个人推荐的一些小众软件](https://github.com/hjmmc/Honor-Magicbook/wiki/%E4%B8%AA%E4%BA%BA%E6%8E%A8%E8%8D%90%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B0%8F%E4%BC%97%E8%BD%AF%E4%BB%B6)
+
+   [替换启动 Logo 为 Apple 图标](LOGO)
+
+
+## 打赏作者
+
+<details>
+  <summary>支付宝&微信</summary>
+    
+  <img src="https://cdn.lhjmmc.cn/alipay.jpg" width="300px"  />
+  <img src="https://cdn.lhjmmc.cn/wx.jpg" width="350px" />
+</details>
+

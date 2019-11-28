@@ -26,11 +26,8 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
     - Need to replace the wireless network card
 - Touchpad
 - Camera
-- Realtek ALC256
-    - The microphone and headphones are normal, the speaker sound has been fixed using the self-compiled `AppleALC`, but the speaker sound becomes smaller after using the built-in microphone
-, you need to connect the headphones and then pull out to make a sound, the reason is unknown
+- Realtek ALC256 layout-id is 57
 - Monitor
-    - Need to re-open after hibernation to light up the monitor
   
 
 ## What's not Working
@@ -39,3 +36,13 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
 - MX150 graphic car
     - Have used [SSDT-Disable_DGPU](EFI/CLOVER/ACPI/patched) to disable it in order to save power
 
+## Donate
+
+> If you find this project useful, you can buy author a glass of juice 🍹
+
+<details>
+  <summary>Alipay & Wechat</summary>
+    
+  <img src="https://cdn.lhjmmc.cn/alipay.jpg" width="300px"  />
+  <img src="https://cdn.lhjmmc.cn/wx.jpg" width="350px" />
+</details>
